@@ -1,0 +1,67 @@
+#title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+body{
+    text-align: center;
+    background: #FFE5C2;
+
+
+}
+
+#table1{
+    table-border-color-dark: black;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    empty-cells: initial;
+    background: white;
+    border-color: black;
+    border-width: 1px;
+}
+
+td{
+    height: 25px;
+    padding: 3px;
+
+}
+
+tr:hover {background-color: rgb(205, 220, 255);}
+
+
+#error{
+    margin-top: 200px;
+    font-size: 50px;
+    color: red;
+}
+
+button{
+    margin-top: 30px;
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-color: rgb(205, 220, 255);
+    border-width: 2px;
+
+}
+#finalGradeNeeded{
+    font-size: 15px;
+}
+
+
+
+button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.c3{
+    padding: 0;
+
+}
